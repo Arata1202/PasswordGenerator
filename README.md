@@ -3,5 +3,5 @@
 
 1, go run generator.go でアプリを起動。<br>
 2, パスワードジェネレーターでパスワードを生成。<br>
-3, save excelでexcelにパスワードを保存。<br>
+3, ラベル指定後、save excelでexcelにパスワードを保存。<br>
 4, go eun check.go で既存のパスワードの安全性をチェック。
