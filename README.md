@@ -4,4 +4,7 @@
 1, go run generator.go でアプリを起動。<br>
 2, パスワードジェネレーターでパスワードを生成。<br>
 3, ラベル指定後、save excelでexcelにパスワードを保存。<br>
-4, go run check.go で既存のパスワードの安全性をチェック。
+4, go run check.go で既存のパスワードの安全性をチェック。<br>
+5, go run hash.go でハッシュ化されたパスワードを生成。<br>
+6, go run csv.go でcsvファイルをダウンロード<br>
+7, go run regenerator.go パスワードを再生成。過去のパスワードも記憶可能。
