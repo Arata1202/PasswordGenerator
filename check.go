@@ -21,11 +21,11 @@ func main() {
 
 	for i, row := range rows {
 		if i == 0 {
-			f.SetCellValue("Sheet1", "C1", "Safety Score")
+			f.SetCellValue("Sheet1", "F1", "Safety Score")
 		} else if len(row) > 1 {
 			password := row[1]
 			score := evaluatePasswordSafety(password)
-			scoreCell := "C" + strconv.Itoa(i+1)
+			scoreCell := "F" + strconv.Itoa(i+1)
 			f.SetCellValue("Sheet1", scoreCell, score)
 		}
 	}
